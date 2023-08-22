@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Doclab - madical html template</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <div class="preloader">
+    <div class="preloader-circle"></div>
+  </div>
+  <body>
+    <header class="header">
+      <div class="container header-wrap">
+        <a href="#" class="header-logo">
+          <img src="images/logo.svg" alt="logo" width="136" height="46" />
+        </a>
+        <nav class="header-nav">
+          <div class="header-nav__top">
+            <button class="navToggler header-nav__top-close">
+              <svg class="icon">
+                <use xlink:href="images/icon/sprite-icon.svg#xmark"></use>
+              </svg>
+            </button>
+            <a href="#" class="header-nav__top-logo">
+              <img src="images/logo.svg" alt="logo" width="136" height="46" />
+            </a>
+          </div>
+          <ul class="header-nav__list">
+            <li class="header-nav__list-item">
+              <a href="#" class="header-nav__list-link">Про нас</a>
+            </li>
+            <li class="header-nav__list-item">
+              <a href="#" class="header-nav__list-link">Лікарі</a>
+            </li>
+            <li class="header-nav__list-item">
+              <a href="#" class="header-nav__list-link">Послуги</a>
+            </li>
+            <li class="header-nav__list-item">
+              <a href="#" class="header-nav__list-link">Блог</a>
+            </li>
+            <li class="header-nav__list-item">
+              <a href="#" class="header-nav__list-link">Контакти</a>
+            </li>
+          </ul>
+
+          <div class="header-nav__soc">
+            <a href="#" class="header-nav__soc-link">
+              <svg class="icon">
+                <use xlink:href="images/icon/sprite-icon.svg#facebook"></use>
+              </svg>
+            </a>
+            <a href="#" class="header-nav__soc-link">
+              <svg class="icon">
+                <use xlink:href="images/icon/sprite-icon.svg#twitter"></use>
+              </svg>
+            </a>
+            <a href="#" class="header-nav__soc-link">
+              <svg class="icon">
+                <use xlink:href="images/icon/sprite-icon.svg#youtube"></use>
+              </svg>
+            </a>
+            <a href="#" class="header-nav__soc-link">
+              <svg class="icon">
+                <use xlink:href="images/icon/sprite-icon.svg#pinterest"></use>
+              </svg>
+            </a>
+            <a href="#" class="header-nav__soc-link">
+              <svg class="icon">
+                <use xlink:href="images/icon/sprite-icon.svg#instagram"></use>
+              </svg>
+            </a>
+          </div>
+        </nav>
+        <button class="navToggler burger-btn">
+          <span class="line"></span>
+        </button>
+        <a href="#" class="button header-btn">
+          <span>Записатись на прийом</span>
+        </a>
+
+        <div class="overlay"></div>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container intro-wrap">
+          <div class="intro-content">
+            <h4 class="intro-content__top" data-reveal="left">
+              Ласкаво просимо до Doclab
+            </h4>
+            <h1 class="intro-content__title" data-reveal="left">
+              Знайдіть собі <br />
+              лікаря
+            </h1>
+            <form action="#" class="intro-content__form" data-reveal="left">
+              <div class="intro-content__text">
+                Пошук лікарів, клініки, лікарні
+              </div>
+              <div class="intro-content__inner">
+                <div class="intro-content__wrap">
+                  <input
+                    class="intro-content__input"
+                    type="text"
+                    placeholder="Розташування"
+                  />
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#map-pin"></use>
+                  </svg>
+                </div>
+                <button class="button intro-content__btn">
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#search"></use>
+                  </svg>
+                  <span>Знайти</span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <figure class="intro-img" data-reveal="right">
+            <img
+              src="images/hero-banner.png"
+              width="590"
+              height="517"
+              alt="hero banner"
+            />
+          </figure>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <ul class="services-list">
+            <li>
+              <div class="services-item" data-reveal="bottom">
+                <img
+                  src="images/icon-1.png"
+                  alt="service icon"
+                  class="services-img"
+                  width="71"
+                  height="71"
+                />
+                <h3 class="services-title">Неврологія</h3>
+                <p class="services-desc">
+                  Одним з найважливіших умов нормального функціонування органів
+                  і систем людського організму є здорова нервова система.
+                </p>
+                <a href="#" class="services-link">
+                  <svg class="icon">
+                    <use
+                      xlink:href="images/icon/sprite-icon.svg#arrow-right"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="services-item" data-reveal="bottom">
+                <img
+                  src="images/icon-2.png"
+                  alt="service icon"
+                  class="services-img"
+                  width="71"
+                  height="71"
+                />
+                <h3 class="services-title">Гінекологія</h3>
+                <p class="services-desc">
+                  Наша клініка надає гінекологічну допомогу на високому рівні.
+                  Ви можете звернутися за консультацією в будь-який зручний для
+                  вас час.
+                </p>
+                <a href="#" class="services-link">
+                  <svg class="icon">
+                    <use
+                      xlink:href="images/icon/sprite-icon.svg#arrow-right"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="services-item" data-reveal="bottom">
+                <img
+                  src="images/icon-3.png"
+                  alt="service icon"
+                  class="services-img"
+                  width="71"
+                  height="71"
+                />
+                <h3 class="services-title">Пульмонологія</h3>
+                <p class="services-desc">
+                  Пульмонологія - розділ медицини, що вивчає хвороби дихальної
+                  системи людини, серед яких бронхіт, плеврит, пневмонія,
+                  трахеїт, туберкульоз, інфаркт легені та інші.
+                </p>
+                <a href="#" class="services-link">
+                  <svg class="icon">
+                    <use
+                      xlink:href="images/icon/sprite-icon.svg#arrow-right"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="services-item" data-reveal="bottom">
+                <img
+                  src="images/icon-4.png"
+                  alt="service icon"
+                  class="services-img"
+                  width="71"
+                  height="71"
+                />
+                <h3 class="services-title">Ортопедія</h3>
+                <p class="services-desc">
+                  Опорно-руховий апарат відіграє важливу роль в житті кожної
+                  людини, проблеми в цій галузі серйозно позначаються на якості
+                  життя, приводячи до неприємних наслідків і часткової, а іноді
+                  і повної втрати працездатності.
+                </p>
+                <a href="#" class="services-link">
+                  <svg class="icon">
+                    <use
+                      xlink:href="images/icon/sprite-icon.svg#arrow-right"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about-wrap">
+          <div class="about-info">
+            <h4 class="about-info__desc" data-reveal="left">Про Нас</h4>
+            <h2 class="about-info__title" data-reveal="left">
+              Досвідчені Працівники
+            </h2>
+            <p class="about-info__text" data-reveal="left">
+              Медичний центр «Doclab» - це ультрасучасне обладнання, інноваційні
+              медичні технології і команда висококваліфікованих лікарів, які
+              щодня рятують і допомагають десяткам пацієнтів.
+            </p>
+            <div class="about-info__tabs tab">
+              <div class="tab-top" data-reveal="left">
+                <button class="tab-top__item active">Місія</button>
+                <button class="tab-top__item">Переваги</button>
+                <button class="tab-top__item">Стратегія</button>
+              </div>
+
+              <div class="tab-content">
+                <div class="tab-content__item active">
+                  <p class="tab-content__desc" data-reveal="left">
+                    Медичний центр «Doclab» - це велика сім'я професіоналів, яка
+                    завжди рада всім гостям і завжди готова прийти на допомогу.
+                  </p>
+                  <ul class="tab-content__list" data-reveal="left">
+                    <li class="tab-content__listItem">
+                      <p>
+                        Індивідуальний підхід до кожного пацієнта з урахуванням
+                        його особливостей і потреб.
+                      </p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>
+                        Використання в діагностиці та лікуванні пацієнта тільки
+                        перевірених методів.
+                      </p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>
+                        Комплексне професійне консультування пацієнтів з усіх
+                        питань.
+                      </p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>
+                        Для нас в пріоритеті завжди пацієнт, його потреби і
+                        потреби.
+                      </p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>
+                        Ми призначаємо необхідне лікування враховуючи міжнародні
+                        стандарти.
+                      </p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>
+                        Для нас в пріоритеті завжди пацієнт, його потреби і
+                        потреби.
+                      </p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>
+                        Ми створюємо дружню і комфортну атмосферу в медичному
+                        центрі.
+                      </p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Наші пацієнти стають нашими друзями.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-content__item">
+                  <p class="tab-content__desc" data-reveal="left">
+                    Протягом багатьох років наша клініка допомогла більш ніж 1,5
+                    мільйонам чоловік перемогти захворювання.
+                  </p>
+                  <ul class="tab-content__list" data-reveal="left">
+                    <li class="tab-content__listItem">
+                      <p>Квіліфікований та уважний медперсонал</p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Підтримка зв'язку з пацієнтами 24/7</p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Індивідуальний підхід до пацієнтів</p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Новітнє обладнання для точної діагностики</p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Комфортна атмосфера для пацієнтів</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-content__item">
+                  <p class="tab-content__desc" data-reveal="left">
+                    Наші пацієнти залишаються з нами на довгі роки завдяки
+                    кільком ключовим факторам:
+                  </p>
+                  <ul class="tab-content__list" data-reveal="left">
+                    <li class="tab-content__listItem">
+                      <p>Професіоналізм</p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Надійність</p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Довіра</p>
+                    </li>
+                    <li class="tab-content__listItem">
+                      <p>Турбота</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <figure class="about-img" data-reveal="right">
+            <img
+              src="images/about-banner.png"
+              width="554"
+              height="678"
+              alt="about banner"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="specialist">
+        <div class="container specialist-wrap">
+          <div class="specialist-top">
+            <h4 class="specialist-top__desc" data-reveal="left">
+              Наші послуги
+            </h4>
+            <h2 class="specialist-top__title" data-reveal="left">
+              Напрями нашої клініки
+            </h2>
+          </div>
+          <div class="specialist-item" data-reveal="bottom">
+            <img
+              src="images/icon-1.png"
+              class="specialist-item__img"
+              width="71"
+              height="71"
+              alt="specialist icon"
+            />
+            <div class="specialist-item__inner">
+              <h3 class="specialist-item__title">Неврологія</h3>
+              <div class="specialist-item__subtitle">
+                Діагностика та лікування захворювань центральної і периферичної
+                нервової системи
+              </div>
+            </div>
+          </div>
+          <div class="specialist-item" data-reveal="bottom">
+            <img
+              src="images/icon-2.png"
+              class="specialist-item__img"
+              width="71"
+              height="71"
+              alt="specialist icon"
+            />
+            <div class="specialist-item__inner">
+              <h3 class="specialist-item__title">Гінекологія</h3>
+              <div class="specialist-item__subtitle">
+                Гінекологічна допомога на високому рівні
+              </div>
+            </div>
+          </div>
+          <div class="specialist-item" data-reveal="bottom">
+            <img
+              src="images/icon-4.png"
+              class="specialist-item__img"
+              width="71"
+              height="71"
+              alt="specialist icon"
+            />
+            <div class="specialist-item__inner">
+              <h3 class="specialist-item__title">Пульмонологія</h3>
+              <div class="specialist-item__subtitle">
+                Консультація пульмонолога і клінічний огляд
+              </div>
+            </div>
+          </div>
+          <div class="specialist-item" data-reveal="bottom">
+            <img
+              src="images/icon-5.png"
+              class="specialist-item__img"
+              width="71"
+              height="71"
+              alt="specialist icon"
+            />
+            <div class="specialist-item__inner">
+              <h3 class="specialist-item__title">Ортопедія</h3>
+              <div class="specialist-item__subtitle">
+                Спеціалізована діагностична та консультативна допомога
+              </div>
+            </div>
+          </div>
+          <div class="specialist-item" data-reveal="bottom">
+            <img
+              src="images/icon-6.png"
+              class="specialist-item__img"
+              width="71"
+              height="71"
+              alt="specialist icon"
+            />
+            <div class="specialist-item__inner">
+              <h3 class="specialist-item__title">Педіатрія</h3>
+              <div class="specialist-item__subtitle">
+                Виклик дитячого лікаря додому
+              </div>
+            </div>
+          </div>
+          <div class="specialist-item" data-reveal="bottom">
+            <img
+              src="images/icon-7.png"
+              class="specialist-item__img"
+              width="71"
+              height="71"
+              alt="specialist icon"
+            />
+            <div class="specialist-item__inner">
+              <h3 class="specialist-item__title">Кардіологія</h3>
+              <div class="specialist-item__subtitle">
+                Консультація кардіолога і клінічний огляд + УЗД серця
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container">
+          <div class="blog-top">
+            <h4 class="blog-top__desc" data-reveal="bottom">
+              Новини та Статті
+            </h4>
+            <h2 class="blog-top__title" data-reveal="bottom">Останні Статті</h2>
+          </div>
+          <div class="blog-cards">
+            <div class="blog-card" data-reveal="bottom">
+              <div class="blog-card__top">
+                <div class="blog-card__user">
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#user"></use>
+                  </svg>
+                  Автор
+                </div>
+                <div class="blog-card__prof">
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#folder"></use>
+                  </svg>
+                  Спеціалізація
+                </div>
+              </div>
+              <h3 class="blog-card__title">Що таке стрес?</h3>
+              <time class="blog-card__date" datetime="2024-01-28"
+                >28 Січень, 2024</time
+              >
+              <p class="blog-card__text">
+                Кожна людина має вроджений механізм підтримки внутрішнього
+                балансу. Різні несподівані та напружені ситуації можуть цей
+                баланс порушувати. Тоді організм реагує захисною-пристосувальною
+                реакцією: починає мобілізувати всі резерви та змінює режим
+                роботи багатьох органів та систем. Якщо подразник не зникає, а
+                стрес підсилюється та розвивається, то організм починає
+                виснажуватись. Виникає ризик цілої низки захворювань.⠀
+              </p>
+              <a href="#" class="blog-card__link">Читати більше</a>
+            </div>
+            <div class="blog-card" data-reveal="bottom">
+              <div class="blog-card__top">
+                <div class="blog-card__user">
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#user"></use>
+                  </svg>
+                  Автор
+                </div>
+                <div class="blog-card__prof">
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#folder"></use>
+                  </svg>
+                  Спеціалізація
+                </div>
+              </div>
+              <h3 class="blog-card__title">
+                Харчова алергія та її діагностика
+              </h3>
+              <time class="blog-card__date" datetime="2024-02-18"
+                >18 Лютий, 2024</time
+              >
+              <p class="blog-card__text">
+                Харчова алергія – це коли імунна система людини реагує так, як
+                ніби певна їжа шкідлива для організму. Якщо людина їсть,
+                торкається чи вдихає цю їжу, у неї може виникнути алергічна
+                реакція. Більшість алергічних реакцій відбувається від 5 хвилин
+                до 1 години після їжі або дотику до їжі.
+              </p>
+              <a href="#" class="blog-card__link">Читати більше</a>
+            </div>
+            <div class="blog-card" data-reveal="bottom">
+              <div class="blog-card__top">
+                <div class="blog-card__user">
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#user"></use>
+                  </svg>
+                  Автор
+                </div>
+                <div class="blog-card__prof">
+                  <svg class="icon">
+                    <use xlink:href="images/icon/sprite-icon.svg#folder"></use>
+                  </svg>
+                  Спеціалізація
+                </div>
+              </div>
+              <h3 class="blog-card__title">Пологи починаються. Що робити?</h3>
+              <time class="blog-card__date" datetime="2024-03-7"
+                >7 Березня, 2024</time
+              >
+              <p class="blog-card__text">
+                Напередодні поставленої приблизної дати пологів з’являється
+                страх невідомого (особливо, коли це перші пологи), думки «ну
+                коли ж?» сьогодні , завтра, чи ще є пару днів. А варто
+                прислухатись до свого організму, адже він знає ліпше чим ми
+                самі. До початку пологів передує низка клінічних симптомів -
+                «провісники пологів". Їх поява свідчить про готовність організму
+                вагітної до найважливішої зустрічі у її житті. Які?
+              </p>
+              <a href="#" class="blog-card__link">Читати більше</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-top" data-reveal="bottom">
+            <a href="#" class="footer-top__logo">
+              <img
+                src="images/logo.svg"
+                width="136px"
+                height="46px"
+                alt="logo"
+              />
+            </a>
+            <div class="footer-top__wrap">
+              <div class="footer-top__item">
+                <svg class="icon">
+                  <use xlink:href="images/icon/sprite-icon.svg#envelope"></use>
+                </svg>
+                <div class="footer-top__inner">
+                  <div class="footer-top__content">
+                    Email :
+                    <a href="#" class="footer-top__link">contact@doclab.com</a>
+                  </div>
+                  <div class="footer-top__content">
+                    Email :
+                    <a href="#" class="footer-top__link">Info@mail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-top__item">
+                <svg class="icon">
+                  <use xlink:href="images/icon/sprite-icon.svg#phone"></use>
+                </svg>
+                <div class="footer-top__inner">
+                  <div class="footer-top__content">
+                    Телефон :
+                    <a href="#" class="footer-top__link">0029129102320</a>
+                  </div>
+                  <div class="footer-top__content">
+                    Телефон гарячої лінії :
+                    <a href="#" class="footer-top__link">000 2324 39493</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-info" data-reveal="bottom">
+            <div class="footer-info__title">Про нас</div>
+            <p class="footer-info__text">
+              Медичний центр - це ультрасучасне обладнання, інноваційні медичні
+              технології і команда висококваліфікованих лікарів.
+            </p>
+            <address class="footer-info__address">
+              <svg class="icon">
+                <use xlink:href="images/icon/sprite-icon.svg#map"></use>
+              </svg>
+              <div class="footer-info__text">
+                м. Харків, <br />вул. С. Бандери, 17/1
+              </div>
+            </address>
+          </div>
+          <div class="footer-info" data-reveal="bottom">
+            <div class="footer-info__title">Головна</div>
+            <ul class="footer-info__list">
+              <li>
+                <a href="#" class="footer-info__link">Поліклініка</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Стаціонар</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Діагностика</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Невідкладна Допомога</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Новини</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Медична Бібліотека</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-info" data-reveal="bottom">
+            <div class="footer-info__title">Послуги</div>
+            <ul class="footer-info__list">
+              <li>
+                <a href="#" class="footer-info__link">Пакети Послуг</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Запис</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Ціни</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Лікарі</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Клініки</a>
+              </li>
+              <li>
+                <a href="#" class="footer-info__link">Контакти</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-info" data-reveal="bottom">
+            <div class="footer-info__title">Підпишіться</div>
+            <form class="footer-info__form">
+              <input
+                type="text"
+                class="footer-info__input"
+                placeholder="Email"
+              />
+              <button class="button footer-info__btn">
+                <span>Підпишіться</span>
+              </button>
+            </form>
+            <p class="footer-info__text">
+              Отримуйте останні оновлення електронною поштою. Будь-коли ви
+              можете скасувати підписку
+            </p>
+          </div>
+        </div>
+        <div class="footer-copy">
+          <div class="footer-copy__desc">
+            &copy; Doclab 2022 | All Rights Reserved by AlenaElena
+          </div>
+          <ul class="footer-copy__soc">
+            <li>
+              <a href="#" class="footer-copy__soc-link">
+                <svg class="icon">
+                  <use xlink:href="images/icon/sprite-icon.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-copy__soc-link">
+                <svg class="icon">
+                  <use xlink:href="images/icon/sprite-icon.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-copy__soc-link">
+                <svg class="icon">
+                  <use xlink:href="images/icon/sprite-icon.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-copy__soc-link">
+                <svg class="icon">
+                  <use xlink:href="images/icon/sprite-icon.svg#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-copy__soc-link">
+                <svg class="icon">
+                  <use xlink:href="images/icon/sprite-icon.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-top__btn">
+      <svg class="icon">
+        <use xlink:href="images/icon/sprite-icon.svg#chevron-up"></use>
+      </svg>
+    </a>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
